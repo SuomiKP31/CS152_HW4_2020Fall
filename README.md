@@ -11,6 +11,9 @@ as well as store them for use of finding the linear approximation and differenti
 
 An SPN network the same as the textbook presented is implemented and tested. (Encryption only)
 
+I run the code under Python 2.7 with bitarray installed. Note that bitarray always contain 8 bits, so in order to pick a one from a bitarray converted from '8'(0000 1000)
+you need to use bitarray_8[4]. Other parts of the code are pretty much self-explanatory.
+
 ## Questions
 
 ### 4.15 
