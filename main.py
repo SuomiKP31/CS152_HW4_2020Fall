@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     # Q3D
     spn = SPN(sbox)
-    #spn.linear_trial(50,3000)
+    spn.linear_trial(50,3000)
 
     #Q4
     sbox = [0xe, 2, 1, 3, 0xd, 9, 0, 6, 0xf, 4, 5, 0xa, 8, 0xc, 7, 0xb]
